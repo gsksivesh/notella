@@ -3,12 +3,13 @@ let database
 
 /* initialize firebase */
 const config = {
-    apiKey: "AIzaSyC3yBT7RUgr7rqpcKaIIoKQxIdbVy5_c1Q",
-    authDomain: "notes-65612.firebaseapp.com",
-    databaseURL: "https://notes-65612.firebaseio.com",
-    storageBucket: "notes-65612.appspot.com",
-    messagingSenderId: "241953144431"
-}
+    apiKey: "AIzaSyCHfsmNn22SoRaBPSceIBTJU4H_apwvyJU",
+    authDomain: "codepad-c2257.firebaseapp.com",
+    databaseURL: "https://codepad-c2257.firebaseio.com",
+    projectId: "codepad-c2257",
+    storageBucket: "codepad-c2257.appspot.com",
+    messagingSenderId: "978102417111"
+};
 firebase.initializeApp(config)
 
 /* Authenticate with twitter */
